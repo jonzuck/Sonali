@@ -1,0 +1,131 @@
+body {
+	font-family: 'Open Sans', sans-serif; font-size:16 px; }
+aside:before, aside:after,article:before, article:after,section:before,section:after,header:before,header:after,.clearfix:before, .clearfix:after {
+    content: " "; 
+    display: block; 
+}
+aside:after,article:after,section:after,header:after, .clearfix:after {
+	clear: both;
+}
+.page {
+    max-width : 1024px ; 
+    margin : 15px  auto 0;
+    position : relative ;
+}
+
+/* Text */
+h1 {margin:0 0 0 302px; font-size :2.8em ; line-height: 130px;}
+h2 {margin:0 0  0.5em 0 ; font-size :1.6em ; line-height : 1.1em; }
+
+p { margin:15px  0 1em 0 ;}
+
+a {color :#007eff;}
+a:visited { color : #65blff;}
+ 
+ 
+ /* Header */
+header img {
+    position: relative;
+    right:30px;}
+#menu ul {
+list-style: none  ;
+margin: 0 0 10px;
+padding: 0;
+}
+#menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 5px 1px 0;
+ }
+ 
+#menu li a {
+    display: block;
+    background-color: black ;
+    padding : 8px;
+}  
+  
+#menu li a {
+  display:inline block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius : 8px;
+}
+	
+#menu a:hover {
+    color: #FFF;
+    background-color: #090;
+}
+
+#menu ul ul {
+	position:absolute;
+	display: none;
+}
+
+#menu ul li:hover > ul {
+	display:block;
+}
+#menu ul ul li {
+    margin-top: 1px;
+    z-index:10000;
+}
+
+.floatleft{
+	float: left ;
+}
+
+.floatright {
+	float: right;
+}
+
+.columns .floatleft, .columns .floatright {
+	width: 49%;
+}
+
+ 
+ /* Sections */
+ section {margin-bottom:20px;}
+ section.main { margin-top: 10 px ; margin-bottom : 30px ; padding: 0 ;  }
+ section.main aside { width: 33% ; float : left ; text- align : center ; }
+ section.main .content { margin: 15px; background : no-repeat center top ; background-size : 75px  75px ; }
+ 
+ section.main aside h3 a { color:#000 ; text-decoration : none;}
+ section.main aside h3 a:hover { text-decoration : underline ;}
+ 
+/* section.main aside.content.trending {background-image : url ();} if I want to put image above it */
+/* section.main aside.content.find-it {background-image : url ();} if I want to put image above it */
+/* section.main aside.content.tools {background-image : url ();} if I want to put image above it */
+
+section.news {
+	background: #efe;
+    border: 3px solid #ada;
+    padding: 30px;
+	max-width : 800px;
+	margin-left :auto;
+	margin-right : auto ;
+ }
+section.news img {width: 49%;}
+section.news div {float:right; width: 48%;}
+section.news p { margin-top:0;} 
+
+/* Partners page */
+#partners {
+    width:1020px;
+    margin:60px auto;
+}
+#partners .clearfix {
+    margin-bottom: 20px;
+}
+#partners img {
+    max-width:200px;
+    display:block;
+    margin: 0 auto 10px;
+}
+#partners .content {
+    width: 300px;
+    margin-right:40px;    
+}
+#partners li {
+    margin-bottom: 5px;
+}
